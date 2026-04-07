@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/fonts/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/fonts/SFPRODISPLAYBOLD.OTF") format("opentype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --font-sf-pro: "SF Pro Display";
+  color-scheme: dark;
+}
+
+html.light {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: var(--font-sf-pro), system-ui, sans-serif;
+}
+
+::selection {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(56px) scale(0.98);
+  filter: blur(10px);
+  transition:
+    opacity 760ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 760ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 760ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--scroll-reveal-delay, 0ms);
+  will-change: opacity, transform, filter;
+}
+
+.scroll-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1280px] px-4 small:px-6 large:px-4 2xlarge:px-0;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center rounded-full border border-primary-500/30 bg-primary-500/10 px-3 py-1 text-[11px] font-medium leading-none text-primary-300;
+  }
+
+  .light .eyebrow {
+    @apply border-primary-500/20 bg-primary-50 text-primary-700;
+  }
+}

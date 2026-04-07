@@ -1,5 +1,7 @@
 # PPA Landing Page
 
+Live Link: https://badal-frontend.vercel.app/
+
 A responsive course landing page for **The Deep Work Blueprint**, built from the provided design assets and section reference images. The page presents a productivity course with a hero preview, problem/solution sections, curriculum accordion, testimonial carousel, pricing cards, and footer call-to-action.
 
 ## Tech Stack

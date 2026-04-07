@@ -48,7 +48,7 @@ export function HeroSection() {
 
       <div className="relative z-[3] flex h-[289.93px] w-full flex-col items-center justify-center gap-2 px-4 pb-4 pt-[60px] small:h-[350.79px] small:px-5 small:pb-5 medium:h-[439.86px] medium:px-7 medium:pb-7 large:h-[719px] large:px-10 large:pb-[60px]">
         <VideoCard
-          src="/image/jozsef-hocza-hhASRAL_1io-unsplash 1.png"
+          src="/image/hero.png"
           alt="Professional focused on a laptop during a deep work session"
           priority
           className="w-full max-w-[1064px] rounded-[24px] border-0 shadow-none [&>button]:size-[60px] [&>button]:border-[3px] [&>button]:p-4 [&>button]:backdrop-blur-[10px] [&_svg]:size-7 small:[&>button]:size-[88px] small:[&>button]:border-[6px] small:[&>button]:p-6 small:[&>button]:backdrop-blur-[20px] small:[&_svg]:size-10"

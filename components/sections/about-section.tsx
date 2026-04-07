@@ -25,7 +25,7 @@ export function AboutSection() {
         </p>
 
         <h2 className="max-w-[348px] text-[28px] font-normal leading-[1.15] text-[#E0E3E5] small:max-w-[401px] medium:max-w-[545px] medium:text-[40px] large:max-w-[928px] large:text-[52px] light:text-neutral-950">
-          If you struggle to focus, feel overwhelmed by end{" "}
+          If you struggle to focus, feel overwhelmed by end
           <span className="text-[#DFE2E54D] light:text-neutral-950">
             less tasks, or procrastinate instead of making progress, you’re not
             alone.

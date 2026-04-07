@@ -83,7 +83,7 @@ export function CurriculumSection() {
     >
       <div className="mx-auto flex w-full max-w-[1360px] flex-col items-center">
         <div className="flex w-full flex-col items-center gap-8 px-4 pb-[60px] pt-[160px] small:px-10">
-          <p className="inline-flex h-9 w-[166px] items-center justify-center gap-2 rounded-[12px] bg-[#171B21] px-4 py-2 text-center text-[15px] font-normal leading-[1.35] text-[#D0D5D9] shadow-[0_8px_40px_rgba(36,102,242,0.15)] light:bg-white light:text-neutral-700">
+          <p className="gradient-badge inline-flex h-9 items-center justify-center gap-2 rounded-[12px] px-4 py-2 text-center text-[15px] font-normal leading-[1.35] text-[#D0D5D9] shadow-[0_8px_40px_rgba(36,102,242,0.15)] [--badge-bg:#171B21] light:[--badge-bg:#FFFFFF] light:text-neutral-700">
             <span className="size-2 rounded-full bg-[#2466F2] shadow-[0_2px_12px_rgba(36,102,242,0.5)]" />
             Course Curriculum
           </p>

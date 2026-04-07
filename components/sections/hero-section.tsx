@@ -5,13 +5,13 @@ export function HeroSection() {
   return (
     <section
       id="overview"
-      className="relative isolate flex h-[849.93px] flex-col items-end overflow-hidden bg-black p-0 text-white small:h-[910.79px] medium:h-[999.86px] large:h-[1279px] light:bg-neutral-25 light:text-neutral-950"
+      className="relative isolate flex h-[849.93px] flex-col items-end overflow-hidden bg-black p-0 text-white small:h-[910.79px] medium:h-[999.86px] large:h-[1279px] min-[981px]:max-[1439px]:h-[1187.24px] light:bg-neutral-25 light:text-neutral-950"
     >
       <div className="pointer-events-none absolute left-1/2 top-[638px] -z-10 h-[1282px] w-[1440px] -translate-x-1/2 bg-[#1245B3] blur-[200px]" />
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[url('/image/texture.png')] bg-center bg-repeat opacity-70 mix-blend-overlay" />
 
       <div className="flex h-[560px] w-full flex-col items-center justify-end gap-6 px-7">
-        <p className="inline-flex h-9 w-[243px] items-center justify-center gap-2 rounded-[12px] bg-[#171B21] px-4 py-2 text-center text-[15px] font-normal leading-[1.35] text-[#D0D5D9] shadow-[0_8px_40px_rgba(36,102,242,0.15)] light:bg-white light:text-neutral-700">
+        <p className="gradient-badge inline-flex h-9 items-center justify-center gap-2 rounded-[12px] px-4 py-2 text-center text-[15px] font-normal leading-[1.35] text-[#D0D5D9] shadow-[0_8px_40px_rgba(36,102,242,0.15)] [--badge-bg:#171B21] light:[--badge-bg:#FFFFFF] light:text-neutral-700">
           <span className="size-2 shrink-0 rounded-full bg-[#2466F2] shadow-[0_2px_12px_rgba(36,102,242,0.5)]" />
           <span>30% off until 4d : 2h : 41m : 17s</span>
         </p>
@@ -46,7 +46,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="relative z-[3] flex h-[289.93px] w-full flex-col items-center justify-center gap-2 px-4 pb-4 pt-[60px] small:h-[350.79px] small:px-5 small:pb-5 medium:h-[439.86px] medium:px-7 medium:pb-7 large:h-[719px] large:px-10 large:pb-[60px]">
+      <div className="relative z-[3] flex h-[289.93px] w-full flex-col items-center justify-center gap-2 px-4 pb-4 pt-[60px] small:h-[350.79px] small:px-5 small:pb-5 medium:h-[439.86px] medium:px-7 medium:pb-7 large:h-[719px] large:px-10 large:pb-[60px] min-[981px]:max-[1439px]:h-[627.24px]">
         <VideoCard
           src="/image/hero.png"
           alt="Professional focused on a laptop during a deep work session"

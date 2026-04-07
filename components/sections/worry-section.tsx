@@ -24,7 +24,7 @@ export function WorrySection() {
 
   return (
     <section className="bg-black px-4 py-0 text-white small:px-5 medium:px-7 large:px-10 light:bg-neutral-25 light:text-neutral-950">
-      <div className="mx-auto flex w-full max-w-[380px] items-center gap-4 small:max-w-[481px] medium:max-w-[625px] large:max-w-[1280px]">
+      <div className="mx-auto flex w-full max-w-[380px] items-center gap-4 small:max-w-[481px] medium:max-w-[625px] large:max-w-[1280px] min-[981px]:max-w-[901px] 2xlarge:max-w-[1280px]">
         <div className="relative hidden h-[642px] max-w-[526px] flex-1 overflow-hidden rounded-[24px] large:block">
           <Image
             src="/image/pexels-mizunokozuki-12903252.png"
@@ -37,7 +37,7 @@ export function WorrySection() {
 
         <div className="flex min-h-[617.69px] flex-1 flex-col items-start gap-20 rounded-[24px] bg-[#111214] px-8 py-10 small:min-h-[605px] small:p-10 large:min-h-[642px] large:min-w-[520px] large:justify-between large:gap-[118px] light:bg-white light:shadow-[0_18px_60px_rgba(15,23,42,0.08)]">
           <div className="flex w-full flex-col items-start gap-6 small:flex-row small:justify-between">
-            <p className="inline-flex h-9 w-[116px] items-center justify-center gap-2 rounded-[12px] bg-[#171B21] px-4 py-2 text-center text-[15px] font-normal leading-[1.35] text-[#D0D5D9] shadow-[0_8px_40px_rgba(36,102,242,0.15)] light:bg-primary-50 light:text-neutral-700">
+            <p className="gradient-badge inline-flex h-9 items-center justify-center gap-2 rounded-[12px] px-4 py-2 text-center text-[15px] font-normal leading-[1.35] text-[#D0D5D9] shadow-[0_8px_40px_rgba(36,102,242,0.15)] [--badge-bg:#171B21] light:[--badge-bg:#EAF2FF] light:text-neutral-700">
               <span className="size-2 rounded-full bg-[#2466F2] shadow-[0_2px_12px_rgba(36,102,242,0.5)]" />
               No worries
             </p>

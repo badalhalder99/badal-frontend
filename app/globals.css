@@ -83,6 +83,19 @@ body {
     @apply inline-flex items-center rounded-full border border-primary-500/30 bg-primary-500/10 px-3 py-1 text-[11px] font-medium leading-none text-primary-300;
   }
 
+  .gradient-badge {
+    border: 1px solid transparent;
+    background:
+      linear-gradient(var(--badge-bg, #171b21), var(--badge-bg, #171b21))
+        padding-box,
+      radial-gradient(
+          65.98% 88.05% at 50% 50%,
+          #2466f2 0%,
+          rgba(36, 102, 242, 0) 100%
+        )
+        border-box;
+  }
+
   .light .eyebrow {
     @apply border-primary-500/20 bg-primary-50 text-primary-700;
   }
